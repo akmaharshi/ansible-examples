@@ -1,0 +1,8 @@
+# Here are the variables related to Nexus
+
+NEXUS_USER: admin
+NEXUS_PASS: admin123
+
+# Here are the variables related to Tomcat
+
+TOMCAT_HOME: /usr/share/tomcat
