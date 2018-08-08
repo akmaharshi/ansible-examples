@@ -35,6 +35,10 @@ The Ticket Monster application will be available at `http://<jboss server>:<http
 A simple playbook is provided, as an example, to provision hosts in preparation for running this JBoss deployment example.
 
 	ansible-playbook -i hosts demo-aws-launch.yml
+	
+NOTE: BOTO need to install to get this module work. Command to install boto: "pip install boto"
+
+Error: "boto required for this module"
 
 ### Ideas for Improvement
 
