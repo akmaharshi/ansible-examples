@@ -11,7 +11,7 @@ ec2_zone: us-east-1a
 ec2_image: ami-cfe4b2b0
 ec2_instance_type: t2.micro
 ec2_keypair: Mac
-ec2_group_id: sg-e64f7c94
+ec2_security_group: sg-e64f7c94
 ec2_instance_count: 2
 ec2_tag: demo
 ec2_tag_name_prefix: dj
