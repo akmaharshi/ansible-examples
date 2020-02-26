@@ -3,7 +3,7 @@
 NEXUS_USER: admin
 NEXUS_PASS: admin123
 NEXUS_SERVER: 3.86.253.96
-NEXUS_URL: http://{{ NEXUS_SERVER }}:8081/nexus/content/repositories/releases/org/springframework/samples/spring-petclinic/4.2.6/spring-petclinic-4.2.6.war
+NEXUS_URL: http://{{ NEXUS_SERVER }}:8081/nexus/content/repositories/releases/org/springframework/samples/spring-petclinic/{{ version }}/spring-petclinic-{{ version }}.war
 # Here are the variables related to Tomcat
 
 TOMCAT_HOME: /usr/share/tomcat
