@@ -1,8 +1,8 @@
 ---
 - name: Deploy war file from tomcat
   get_url: 
-    url: {{ NEXUS_URL }}
-    dest: {{ TOMCAT_HOME }}/webapps/petclinic.war
+    url: "{{ NEXUS_URL }}"
+    dest: "{{ TOMCAT_HOME }}/webapps/petclinic.war"
     url_username: "{{ NEXUS_USER }}"
     url_password: "{{ NEXUS_PASS }}"
     validate_certs: no

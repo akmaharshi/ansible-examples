@@ -7,6 +7,6 @@
   become_method: sudo
 
   roles:
-    - selinux
+#    - selinux
     - tomcat
     - deploywar
