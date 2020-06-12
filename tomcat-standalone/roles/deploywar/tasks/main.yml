@@ -1,8 +1,9 @@
 ---
 - name: Deploy war file from tomcat
   get_url: 
-    url: "{{ NEXUS_URL }}"
-    dest: "{{ TOMCAT_HOME }}/webapps/petclinic.war"
-    url_username: "{{ NEXUS_USER }}"
-    url_password: "{{ NEXUS_PASS }}"
+    url: http://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war
+    dest: "{{ TOMCAT_HOME }}/webapps/sample.war"
+    # url_username: "{{ NEXUS_USER }}"
+    # url_password: "{{ NEXUS_PASS }}"
     validate_certs: no
+  notify: restart tomcat
