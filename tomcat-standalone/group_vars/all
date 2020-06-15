@@ -11,7 +11,6 @@ ec2_zone: us-east-1e
 ec2_image: ami-09d95fab7fff3776c
 ec2_instance_type: t2.micro
 ec2_keypair: rishi
-ec2_security_group: appserver
 ec2_instance_count: 2
 ec2_tag: demo
 ec2_tag_name_prefix: dj
